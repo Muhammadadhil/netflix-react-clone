@@ -31,6 +31,8 @@
     font-size: 16px;
     font-weight: 500;
 }
+
+
 .login-form input:hover{
     outline: 2;
     border: 2;
@@ -41,7 +43,9 @@
     font-weight: 500;
     
 }
-.login-form button{
+
+
+.login-form .main-button{
     width: 100%;
     border: 0;
     outline: 0;
@@ -54,9 +58,12 @@
     margin-top: 20px;
     cursor: pointer;
 }
-.login-form button:hover{
+
+.login-form .main-button:hover{
     background-color: #b2151d;
 }
+
+
 .form-help{
     display: flex;
     align-items: center;
@@ -78,12 +85,14 @@
     margin-top: 40px;
     color: #737373;
 }
+
 .form-switch span{
     margin-left: 6px;
     color: #fff;
     font-weight: 500;
     cursor: pointer;
 }
+
 .login-spinner{
     width: 100%;
     height: 100vh;
@@ -91,6 +100,39 @@
     align-items: center;
     justify-content: center;
 }
+
+.login-spinner img{
+    width: 60px;
+}
+
+
+.sign-with-google{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 16px;
+    background: #16c4a7;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sign-with-google:hover{
+    background-color: #12917b;
+
+}
+
+.login-spinner{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .login-spinner img{
     width: 60px;
 }

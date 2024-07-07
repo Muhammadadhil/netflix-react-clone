@@ -17,12 +17,12 @@ const Footer = () => {
           </div>
           <ul>
               <li>Audio description</li>
-              <li>Audio description</li>
-              <li>Audio description</li>
-              <li>Audio description</li>
-              <li>Audio description</li>
-              <li>Audio description</li>
-              <li>Audio description</li>
+              <li>Investor Relations</li>
+              <li>Legal Notices</li>
+              <li>Help Centre</li>
+              <li>Jobs</li>
+              <li>Terms of Use</li>
+              <li>Corporate Information</li>
           </ul>
           <p>1997-2023 Netflix, Inc.</p>
       </div>

@@ -10,15 +10,13 @@ const options = {
 };
 
 export const fetchMovies=async (category)=>{
-    console.log('mov category:',category);
+    
     try {
         const response=await fetch(`${API_URL}${category}?language=en-US&page=1`, options);
-        console.log('response:',response);
         if(!response.ok){
             throw new Error("Network response was not ok");
         }
         const data=await response.json();   
-        console.log('response.data:',data);
         return data.results;
     } catch (error) {
         console.error(error);

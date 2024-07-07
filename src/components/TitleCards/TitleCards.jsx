@@ -33,7 +33,7 @@ const TitleCards = ({title,category}) => {
 
   return (
       <div className="title-cards">
-          <h1>{title ? title : "popular of netflix"}</h1>
+          <h2>{title ? title : "popular of netflix"}</h2>
           <div className="card-list" ref={cardsRef}>
               {apiData.map((card, index) => {
                   return (

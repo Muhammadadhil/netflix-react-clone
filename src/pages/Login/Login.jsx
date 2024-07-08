@@ -17,10 +17,8 @@ const Login = () => {
         setLoading(true);
         event.preventDefault();
         if (signInState == "Sign In") {
-            console.log('currently user is not logged in!!!!');
             login(email, password);
         } else {
-            console.log("calling sign up method!!");
             signUp(name, email, password);
         }
         setLoading(false);

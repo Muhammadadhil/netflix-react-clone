@@ -17,7 +17,6 @@ const Home = () => {
     useEffect(()=>{
         const getMovies = async () => {
             const movies = await fetchMovies("popular");
-            console.log("movies:", movies);
             setApiData(movies);
         };
         getMovies()
